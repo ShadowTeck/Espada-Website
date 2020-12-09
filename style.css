@@ -1,0 +1,40 @@
+*, *::after,  *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topPage{
+    display: flex;
+}
+
+h1{
+    font-size: 70px;
+    margin: auto;
+}
+
+img{
+    height: 225px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+}
+
+.listNames{
+    
+}
+
+.list{
+    border: solid white 2px;
+    padding-top: 50px;
+    padding-right: 130px;
+    padding-left:  130px;
+    list-style: none;
+}
