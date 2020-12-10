@@ -29,16 +29,24 @@ li{
 ul{
     padding-top: 18px;
     height: 80px;
-    background-color:  rgb(177, 38, 38);
+    background-color:  rgb(201, 33, 33);
+    opacity: 95%;
 }
 
 .navbar{
     display: flex;
     justify-content: center;
     font-size: 34px;
+    position: sticky;
+    top: -1px;
+    z-index: 1111;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
 }
 
 .navbuttons{
+    padding-top:    19px;
+    padding-bottom: 19px;
     padding-left:  131.3px;
     padding-right: 131.3px;
     display: inline;
@@ -62,12 +70,16 @@ ul{
 
 .sidebar{
     padding-top:200px;
+    padding-left: 3px;
 }
 
 .sidebarButton{
+    outline-style: none;
     height: 30px;
     width: 30px;
     background-color: white;
+    background-image: url(images/Sidebar.png);
+    background-size: cover;
 }
 
 img{
@@ -98,12 +110,30 @@ h1{
 }
 
 .homepage{
+    display: flex;
     background-color: rgb(177, 38, 38);
     height: 1000px;
     width: 800px;
 }
 
 .paragraph{
+    flex-wrap: wrap;
+    margin: 20px;
     height: 70px;
-    width: 400px;
+    /* width: max-content;
+    height: max-content; */
+}
+
+p{
+    flex-wrap: wrap;
+
+}
+
+.displayimg{
+    padding: 0;
+}
+
+.breathtaking{
+    flex-wrap: wrap;
+    padding: 10px;
 }
