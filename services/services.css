@@ -6,20 +6,22 @@
 }
 
 body{
-    color: white;
+    color: black;
     background-color: black;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-weight: normal;
 }
 
 /* Navbar and top of page */
 
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 li :hover{
-    color: rgb(0, 0, 0);
+    color: rgba(255, 0, 0, 0.692);
+    text-decoration: underline;
 }
 
 li{
@@ -27,8 +29,9 @@ li{
 }
 
 ul{
-    padding-top: 18px;
-    height: 80px;
+    display: flex;
+    align-items: center;
+    height: 60px;
     background-color:  rgb(177, 38, 38);
 }
 
@@ -36,6 +39,14 @@ ul{
     display: flex;
     justify-content: center;
     font-size: 34px;
+    background-color:  rgb(177, 38, 38);
+}
+
+.logo {
+    width: 25%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbuttons{
@@ -52,6 +63,7 @@ ul{
     background-size: cover;
     filter: grayscale(0%);
     opacity: 90%;
+    height: 200px;
 }
 
 .background{
@@ -101,10 +113,19 @@ h1{
 .homepage{
     background-color: rgb(177, 38, 38);
     height: 1000px;
-    width: 800px;
+    width: 85%;
+    opacity: .9;
 }
 
 .paragraph{
     height: 70px;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.paragraph h2 {
+    font-size: 48px;
 }
