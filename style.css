@@ -39,8 +39,8 @@ ul{
 }
 
 .navbuttons{
-    padding-left:  196.9px;
-    padding-right: 196.9px;
+    padding-left:  131.3px;
+    padding-right: 131.3px;
     display: inline;
 }
 
@@ -101,4 +101,9 @@ h1{
     background-color: rgb(177, 38, 38);
     height: 1000px;
     width: 800px;
+}
+
+.paragraph{
+    height: 70px;
+    width: 400px;
 }
