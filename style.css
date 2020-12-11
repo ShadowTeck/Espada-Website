@@ -131,27 +131,40 @@ h1{
     width: 70%;
 }
 
-.paragraph{
-    flex-wrap: wrap;
-    margin: 20px;
-    height: 70px;
-    /* width: max-content;
-    height: max-content; */
+.display{
+    height: 40%;    
 }
 
-p{
-    flex-wrap: wrap;
-
+.catdes{
+    text-align: center;
+    font-size: 150%;
+    padding-right: 100px;
 }
 
-.displayimg{
-    padding: 0;
+.cat{
+    padding-top: 80px;
+    padding-right: 100px;
+    height: 90%;
 }
 
-.breathtaking{
-    flex-wrap: wrap;
+.about{
+    padding: 15px;
+    font-size: 250%;
+}
+
+.aboutsection{
+    font-size: 150%;
+    width: 600px;
     padding: 10px;
 }
+
+.overview{
+    font-size: 150%;
+    width: 170%;
+    padding: 10px;
+}
+
+/* Footer */
 
 .footer-items {
     width: 100%;
