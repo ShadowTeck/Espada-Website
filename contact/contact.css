@@ -130,28 +130,23 @@ h1{
     width: 70%;
 }
 
-.paragraph{
-    flex-wrap: wrap;
+/* Contact page contact */
+.feedback{
     margin: 20px;
-    height: 70px;
-    /* width: max-content;
-    height: max-content; */
+    justify-items: center;
 }
-
-p{
-    flex-wrap: wrap;
-
+textarea{
+    margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
 }
-
-.displayimg{
-    padding: 0;
+.feedback h2{
+    text-align: center;
 }
-
-.breathtaking{
-    flex-wrap: wrap;
-    padding: 10px;
+.feedback p{
+    text-align: center;
+    margin-bottom: 10px;
 }
-
+/* Footer Content */
 .footer-items {
     width: 100%;
     height: 100px;
