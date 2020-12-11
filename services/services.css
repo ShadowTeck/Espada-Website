@@ -125,18 +125,72 @@ h1{
 
 
 .homepage{
-    display: flex;
     background-color: rgb(177, 38, 38);
     height: 1000px;
     width: 70%;
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 0;
 }
 
-.paragraph{
-    flex-wrap: wrap;
-    margin: 20px;
-    height: 70px;
-    /* width: max-content;
-    height: max-content; */
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 5px;
+}
+
+.pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.price-box {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin: 15px;
+    border-radius: 30px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.2em;
+}
+
+.price-box ul {
+    width: auto;
+    background-color: black;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+
+.price-box li {
+    margin: 8px 0px 8px 0px;
+}
+
+.silver {
+    height: 200px;
+}
+
+.gold {
+    height: 300px;
+}
+
+.price-box h3{
+    font-size: 2.2em;
+}
+
+#silver {
+    color: #C0C0C0;
+}
+
+#gold {
+    color: #FFD700;
+}
+
+#platnium{
+    color: #7b98b9;
 }
 
 p{
