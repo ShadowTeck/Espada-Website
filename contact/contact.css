@@ -1,0 +1,131 @@
+
+*, *::after,  *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Navbar and top of page */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li :hover{
+    color: rgb(0, 0, 0);
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding-top: 18px;
+    height: 80px;
+    background-color:  rgb(201, 33, 33);
+    opacity: 95%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    position: sticky;
+    top: -1px;
+    z-index: 1111;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+}
+
+.navbuttons{
+    padding-top:    19px;
+    padding-bottom: 19px;
+    padding-left:  131.3px;
+    padding-right: 131.3px;
+    display: inline;
+}
+
+.topPage{
+    padding-top: 5px;
+    display: flex;
+    background-image: url(../Images/depositphotos_21701729-stock-illustration-japanese-theme-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+}
+
+.background{
+    background-image: url(../Images/depositphotos_21701729-stock-illustration-japanese-theme-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0);
+}
+
+.sidebar{
+    padding-top:200px;
+    padding-left: 3px;
+}
+
+.sidebarButton{
+    outline-style: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    background-image: url(../Images/Sidebar.png);
+    background-size: cover;
+}
+
+img{
+    height: 230px;
+    filter: grayscale(1%);
+}
+
+h1{
+    color: white;
+    margin: auto;
+    font-size: 70px;
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+/* Home Page */
+.home{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.58'%3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.homepage{
+    display: flex;
+    background-color: rgb(177, 38, 38);
+    height: 1000px;
+    width: 800px;
+}
+
+.paragraph{
+    flex-wrap: wrap;
+    margin: 20px;
+    height: 70px;
+    /* width: max-content;
+    height: max-content; */
+}
+
+p{
+    flex-wrap: wrap;
+
+}
+
