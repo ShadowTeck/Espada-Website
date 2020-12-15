@@ -37,11 +37,10 @@ body{
 }
 
 .navbar ul li{
-    padding-top: 30px;
-    padding-bottom: 30px;
     position: relative;
     width: 100%;
     list-style: none;
+    transition: 0.5s;
 }
 
 .navbar ul li a{
@@ -59,14 +58,13 @@ body{
     display: block;
     min-width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 70px;
     text-align: center;
 }
 
-.navbar ul li a .title{
+.navbar ul li a .name{
     position: relative;
     display: block;
-    padding: 0 10px;
     height: 60px;
     line-height: 60px;
     text-align: start;
@@ -74,57 +72,16 @@ body{
 }
 
 .navbar ul li:hover{
+    padding-left: 30px;
+    font-size: 150%;
     background: rgb(255, 0, 64);
 }
 
 .awesome{
-    height: 40px;
-    width:  40px;
+    height: 30px;
+    width:  30px;
 }
 
-/* a{
-    color: white;
-    text-decoration: none;
-}
-
-li :hover{
-    color: rgb(0, 0, 0);
-}
-
-li{
-    list-style: none;
-}
-
-ul{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    background-color:  rgb(201, 33, 33);
-} */
-
-/* .navbar{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: 2em;
-    background-color: rgb(201, 33, 33);
-    position: sticky;
-    top: -1px;
-    z-index: 1;
-    border-top: solid 5px white;
-    border-bottom: solid 5px white;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    opacity: .95;
-}
-
-.navbuttons{
-    padding-top:    19px;
-    padding-bottom: 19px;
-    padding-left:  131.3px;
-    padding-right: 131.3px;
-    display: inline;
-} */
 
 /* Top of page */
 
@@ -248,6 +205,7 @@ h1{
 .footer-items li {
     justify-content: space-between;
     margin-left: 50px;
+    list-style: none;
 }
 
 .footer-items li a:hover {
@@ -255,8 +213,23 @@ h1{
     text-decoration: underline;
 }
 
+.footer-items ul{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-items a{
+    color: white;
+    text-decoration: none;
+}
+
 .footer-items img {
     width: 150px;
     height: 96px;
     display: flex;
+}
+
+.items{
+    margin-top: 40px;
 }
