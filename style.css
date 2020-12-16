@@ -16,21 +16,21 @@ body{
 
 .navbar{
     position: fixed;
+    top: 100px;
     width: 60px;
-    height: 100%;
-    /* background: #8d1b1b; */
-    transition: 1s;
+    height: 31%;
+    transition: ease-in-out 1s;
     overflow: hidden;
-    z-index: 111;
+    z-index: 1;
 }
 
 .navbar:hover{
-    width: 300px;
+    width: 250px;
 }
 
 .navbar ul{
     position: absolute;
-    top: 100px;
+    top: 0;
     left: 0;
     width: 100%;
     color: #fff;
@@ -76,6 +76,10 @@ body{
     font-size: 150%;
     background: rgb(255, 0, 64);
     width: 100%;
+}
+
+.navbar ul li a img:hover{
+    size: 120%
 }
 
 .awesome{
