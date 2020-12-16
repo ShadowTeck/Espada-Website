@@ -18,8 +18,8 @@ body{
     position: fixed;
     width: 60px;
     height: 100%;
-    background: #8d1b1b;
-    transition: 0.5s;
+    /* background: #8d1b1b; */
+    transition: 1s;
     overflow: hidden;
     z-index: 111;
 }
@@ -38,9 +38,9 @@ body{
 
 .navbar ul li{
     position: relative;
-    width: 100%;
+    width: 0%;
     list-style: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbar ul li a{
@@ -75,6 +75,7 @@ body{
     padding-left: 30px;
     font-size: 150%;
     background: rgb(255, 0, 64);
+    width: 100%;
 }
 
 .awesome{
