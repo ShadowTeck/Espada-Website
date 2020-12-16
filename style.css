@@ -5,11 +5,16 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: black;
+}
+
 body{
     color: white;
     background-color: black;
     font-family: 'Mulish', sans-serif;
     background-image: url();
+    transition: 1s;
 }
 
 /* sidebar */
@@ -19,7 +24,7 @@ body{
     top: 100px;
     width: 60px;
     height: 31%;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.3s;
     overflow: hidden;
     z-index: 1;
 }

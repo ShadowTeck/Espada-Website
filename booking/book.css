@@ -5,58 +5,95 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: black;
+}
+
 body{
     color: white;
     background-color: black;
     font-family: 'Mulish', sans-serif;
     background-image: url();
+    transition: 1s;
 }
 
-/* Navbar and top of page */
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-li :hover{
-    color: rgb(0, 0, 0);
-}
-
-li{
-    list-style: none;
-}
-
-ul{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    background-color:  rgb(201, 33, 33);
-}
+/* sidebar */
 
 .navbar{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: 2em;
-    background-color: rgb(201, 33, 33);
-    position: sticky;
-    top: -1px;
+    position: fixed;
+    top: 100px;
+    width: 60px;
+    height: 31%;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
     z-index: 1;
-    border-top: solid 5px white;
-    border-bottom: solid 5px white;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    opacity: .95;
 }
 
-.navbuttons{
-    padding-top:    19px;
-    padding-bottom: 19px;
-    padding-left:  131.3px;
-    padding-right: 131.3px;
-    display: inline;
+.navbar:hover{
+    width: 250px;
 }
+
+.navbar ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.navbar ul li{
+    position: relative;
+    width: 0%;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.navbar ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.navbar ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.navbar ul li a .name{
+    position: relative;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.navbar ul li:hover{
+    padding-left: 30px;
+    font-size: 150%;
+    background: rgb(255, 0, 64);
+    width: 100%;
+}
+
+.navbar ul li a img:hover{
+    size: 120%
+}
+
+.awesome{
+    height: 30px;
+    width:  30px;
+}
+
+
+/* Top of page */
 
 .topPage{
     padding: 5px;
@@ -80,20 +117,6 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0);
-}
-
-.sidebar{
-    padding-top:200px;
-    padding-left: 3px;
-}
-
-.sidebarButton{
-    outline-style: none;
-    height: 30px;
-    width: 30px;
-    background-color: white;
-    background-image: url(images/Sidebar.png);
-    background-size: cover;
 }
 
 img{
@@ -135,8 +158,6 @@ h1{
     flex-wrap: wrap;
     margin: 20px;
     height: 70px;
-    /* width: max-content;
-    height: max-content; */
 }
 
 p{
@@ -148,10 +169,8 @@ p{
     padding: 0;
 }
 
-.breathtaking{
-    flex-wrap: wrap;
-    padding: 10px;
-}
+
+/* Footer */
 
 .footer-items {
     width: 100%;
@@ -165,6 +184,7 @@ p{
 .footer-items li {
     justify-content: space-between;
     margin-left: 50px;
+    list-style: none;
 }
 
 .footer-items li a:hover {
@@ -172,8 +192,23 @@ p{
     text-decoration: underline;
 }
 
+.footer-items ul{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-items a{
+    color: white;
+    text-decoration: none;
+}
+
 .footer-items img {
     width: 150px;
     height: 96px;
     display: flex;
+}
+
+.items{
+    margin-top: 40px;
 }
