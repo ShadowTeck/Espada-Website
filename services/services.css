@@ -220,6 +220,10 @@ h1{
     display: flex;
 }
 
+.img1{
+    height: 210px;
+}
+
 
 .silver {
     height: 350px;

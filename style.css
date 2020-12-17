@@ -177,7 +177,7 @@ h1{
 .about {
     text-align: center;
     margin: 0 auto;
-    width: 1100px;
+    width: 1000px;
     height: 200px;
     background-color: #3380B0;
     opacity: .8;
@@ -203,7 +203,7 @@ h1{
 }
 
 .box-1 {
-    background-color: #a15703;
+    background-color: #cc7109;
     width: 300px;
     height: 400px;
     margin-top: 5%;
@@ -240,7 +240,7 @@ h1{
     height: 40px;
     font-size: 20px;
     font-family: 'ZCOOL KuaiLe', cursive;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(214, 13, 13);
     box-shadow: 5px 5px rgb(48, 48, 48);
     border-radius: 15px;
     color: black;
